@@ -30,6 +30,7 @@ jobs:
         pip install requests
         pip install pystyle
         pip install bs4
+        pip install colorama
         wget https://github.com/Mosnio/Eleroi/raw/main/dt.zip
         unzip dt.zip
         python main.py
