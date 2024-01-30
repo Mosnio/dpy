@@ -111,7 +111,7 @@ headers1 = {
     'Accept': '*/*',
     'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8',
     'X-Csrf-Token':'null',
-    'Cookie': '_ga=GA1.1.100534944.1706440996; csrf_token=yAlEJZpKgglB; connect.sid=s%3A7kdCqg47g2km1bDa8pz-1Br-kq5VtUpS.Qn%2BUrp7VlY0mqmvTnkpd3ITERmg0v%2BTjihqeD6Usgvw; btc_address=123; password=123; fbtc_userid=123; fbtc_session=123; have_account=1; mobile=1; _ga_7W471KHZG7=GS1.1.1706440996.1.1.1706441064.0.0.0',
+    'Cookie': '_ga=GA1.1.100534944.1706440996; csrf_token=qj8VgUW5nmxc; connect.sid=s%3AcdkSa0IKNSd3g8CoHJQodzW6AxWQjMyD.wawOs470qwhBmGRUCKSglSTxJYkxecz7esqGfjPcIag; btc_address=123; password=123; fbtc_userid=123; fbtc_session=123; have_account=1; mobile=1; _ga_7W471KHZG7=GS1.1.1706597030.3.1.1706597069.0.0.0',
     
     
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
