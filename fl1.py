@@ -168,7 +168,7 @@ with requests.Session() as session:
                 print("Unexpected response format")
         else:
             print(f"Request failed with status code {response.status_code}")
-        if float(b)>=random.uniform(0.00005,0.00006):
+        if float(b)>=random.uniform(0.060020005,0.060070006):
             print('processing withdraw')
             wd_pay= f"csrf_token=&op=withdraw&type=faucetpay&amount=float(b)&withdraw_address=0x32464E5230fF20f249C8e0f571e4aA3337501b71&tfa_code="
             response = session.post(url, data=wd_pay,headers=login_headers)
