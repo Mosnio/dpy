@@ -171,7 +171,8 @@ with requests.Session() as session:
         if float(b)>=random.uniform(0.00005,0.00006):
             print('processing withdraw')
             wd_pay= f"csrf_token=&op=withdraw&type=faucetpay&amount=float(b)&withdraw_address=0x4ad72843FA4c85217E83A0191b3b55EFe5CC9a5a&tfa_code="
-            response = session.post(url, data=claim_payload,headers=login_headers)
+            response = session.post(url, data=wd_pay,headers=login_headers)
+            print(response.text)
         	
         else:
             pass
