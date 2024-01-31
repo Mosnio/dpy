@@ -156,6 +156,7 @@ with requests.Session() as session:
         if response.status_code == 200:
             # Extract the desired values from the response
             s = str(response.text)
+            print(s)
             parts = s.split(":")
             if len(parts) >= 4:  # Ensure there are enough parts to extract
                 extracted_substring = ":".join(parts[1:4])
