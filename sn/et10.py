@@ -137,7 +137,7 @@ with requests.Session() as session:
     # Perform login
     login_response = session.post(url, data=login_payload, headers=login_headers)
 
-    # Check if the login was successful
+    print(login_response.text)
     if login_response.status_code == 200:
         print("Login successful")
     else:
