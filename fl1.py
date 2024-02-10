@@ -125,8 +125,8 @@ login_headers = {
 login_payload = {
     'csrf_token': '',
     'op': 'login_new',
-    'btc_address': 'mcotyu55@gmail.com',
-    'password': 'Maci@66544',
+    'btc_address': 'sharon.smith@gmail.com',
+    'password': 'pUoUn2gdlZ',
     'tfa_code': ''
 }
 
