@@ -132,9 +132,9 @@ login_headers = {
     'Accept-Language':'en-US,en;q=0.9',
     'Content-Length':'937',
     'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryF1uL6XY92vMN9ANI',
-    'Cookie':'referral=19118',
+    'Cookie':'referral=36692',
     'Process-Data':'false',
-    'Referer':'https://bees.land/?r=19118',
+    'Referer':'https://bees.land/?r=36692',
     'User-Agent': usaa  # Use ua.random to get a random User-Agent string
    # 'X-Requested-With': 'XMLHttpRequest'
 }
